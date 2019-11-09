@@ -1,0 +1,10 @@
+.content-container {
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    max-width: 100rem;
+}
+
+.footer__content {
+    justify-content: space-between;
+    padding: 1.2rem 0;
+}

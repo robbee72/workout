@@ -1,0 +1,35 @@
+{
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "prettier.disableLanguages": [
+        "js"
+    ],
+    "files.autoSave": "onFocusChange",
+    "editor.rulers": [
+        80
+    ],
+    "team.showWelcomeMessage": false,
+    "workbench.colorTheme": "Solarized Dark",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.jsxSingleQuote": true,
+    "javascript.preferences.quoteStyle": "single",
+    "window.zoomLevel": 0,
+    "git.confirmSync": false,
+    "prettier.requireConfig": true,
+    "python.jediEnabled": false,
+    "workbench.sideBar.location": "right",
+    "explorer.openEditors.visible": 3,
+    "editor.minimap.enabled": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Menlo, Monaco, 'Lucida Console', monospace"
+}

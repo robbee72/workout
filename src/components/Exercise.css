@@ -1,0 +1,72 @@
+.parent {
+    margin: inherit;
+    padding: 2 px;
+}
+
+.col-left {
+    flex: 2;
+    padding: 4px;
+    background-color: bisque;
+    opacity: 0.8;
+}
+
+.col-mid {
+    flex: 1;
+    padding: 4px;
+    background-color: bisque;
+    opacity: 0.8;
+}
+
+.col-right {
+    flex: 1;
+    padding: 4px;
+    background-color: bisque;
+    opacity: 0.8;
+}
+
+@media only screen and (min-width: 641px) {
+    .parent {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .parent {
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.content-container {
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    max-width: 100rem
+}
+
+;
+
+.card {
+    width: '15em'
+}
+
+;
+
+.jcPic {
+    align-content: center;
+    height: 10vh;
+    width: 5vw;
+    color: var(--clr);
+    background: #09283f;
+}
+
+card-content {
+    text-align: flex;
+    position: relative;
+    padding: 10em 5em;
+}
+
+;
